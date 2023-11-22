@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Router } from "@angular/router";
-import { SharedModule } from "../../../shared/shared.module";
+import {Component} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {Router} from "@angular/router";
+import {SharedModule} from "../../../shared/shared.module";
 
 @Component({
   selector: 'app-home',
@@ -13,6 +13,7 @@ import { SharedModule } from "../../../shared/shared.module";
 export class HomeComponent {
   constructor(private router: Router) {
   }
+
   opChoices(label: string): void {
     switch (label) {
       case label:

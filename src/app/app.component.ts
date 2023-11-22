@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet} from '@angular/router';
-import { MaterialModule } from "./shared/material.module";
+import {Component} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {RouterOutlet} from '@angular/router';
+import {MaterialModule} from "./shared/material.module";
+import {HeaderComponent} from "./core/components/header/header.component";
 
 
 @Component({
@@ -10,7 +11,8 @@ import { MaterialModule } from "./shared/material.module";
   imports: [
     CommonModule,
     RouterOutlet,
-    MaterialModule
+    MaterialModule,
+    HeaderComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']

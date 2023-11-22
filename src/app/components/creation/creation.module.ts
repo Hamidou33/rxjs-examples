@@ -1,13 +1,16 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { CreationComponent } from "./creation.component";
-import { CreationRoutingModule } from "./creation-routing.module";
+import {NgModule} from '@angular/core';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
+import {CreationComponent} from "./creation.component";
+import {CreationRoutingModule} from "./creation-routing.module";
+import {SharedModule} from "../../shared/shared.module";
 
 @NgModule({
   declarations: [CreationComponent],
   imports: [
-    CommonModule,
-    CreationRoutingModule
+    CreationRoutingModule,
+    SharedModule,
+    NgOptimizedImage
   ]
 })
-export class CreationModule { }
+export class CreationModule {
+}

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-creation',
@@ -7,7 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './creation.component.scss'
 })
 export class CreationComponent {
-  constructor() {
-    console.log('je suis present');
+  constructor(private route: Router) {
+  }
+
+  goToHome(): void {
+    this.route.navigate(['/home']).then()
   }
 }

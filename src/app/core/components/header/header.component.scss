@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0 0 0 8%;
+  flex: 1; /* Utilise tout l'espace disponible */
+  text-align: center; /* Centre le texte horizontalement */
+}
+
+button {
+  margin-left: 10px; /* Ajoute une marge à gauche du bouton */
+}
