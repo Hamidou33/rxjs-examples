@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterOutlet} from '@angular/router';
-import {MaterialModule} from "./shared/material.module";
 import {HeaderComponent} from "./core/components/header/header.component";
 
 
@@ -11,7 +10,6 @@ import {HeaderComponent} from "./core/components/header/header.component";
   imports: [
     CommonModule,
     RouterOutlet,
-    MaterialModule,
     HeaderComponent
   ],
   templateUrl: './app.component.html',

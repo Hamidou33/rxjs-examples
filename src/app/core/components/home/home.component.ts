@@ -1,12 +1,12 @@
 import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {Router} from "@angular/router";
-import {SharedModule} from "../../../shared/shared.module";
+import {MatButtonModule} from "@angular/material/button";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, SharedModule],
+  imports: [CommonModule, MatButtonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -18,7 +18,6 @@ export class HomeComponent {
     switch (label) {
       case label:
         this.router.navigate(['/' + `${label}`]).then();
-        console.log('label', label)
         break;
       default:
         break;

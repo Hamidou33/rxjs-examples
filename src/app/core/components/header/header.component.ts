@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {SharedModule} from "../../../shared/shared.module";
-import {Router} from "@angular/router";
+import { Router } from "@angular/router";
+import {MatButtonModule} from "@angular/material/button";
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, SharedModule],
+  imports: [CommonModule, MatButtonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
