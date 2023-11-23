@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-utilitaires',
-  standalone: false,
+  standalone: true,
   templateUrl: './utilitaires.component.html',
   styleUrl: './utilitaires.component.scss'
 })

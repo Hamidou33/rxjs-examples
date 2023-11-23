@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-transformation',
-  standalone: false,
+  standalone: true,
   templateUrl: './transformation.component.html',
   styleUrl: './transformation.component.scss'
 })

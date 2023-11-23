@@ -13,39 +13,39 @@ export const routes: Routes = [
   },
   {
     path: 'creation',
-    loadChildren: () => import('./components/creation/creation.module').then(m => m.CreationModule)
+    loadComponent: () => import('./components/creation/creation.component').then(m => m.CreationComponent)
   },
   {
     path: 'creation_jointures',
-    loadChildren: () => import('./components/creation-jointures/creation-jointures.module').then(m => m.CreationJointuresModule)
+    loadComponent: () => import('./components/creation-jointures/creation-jointures.component').then(m => m.CreationJointuresComponent)
   },
   {
     path: 'transformation',
-    loadChildren: () => import('./components/transformation/transformation.module').then(m => m.TransformationModule)
+    loadComponent: () => import('./components/transformation/transformation.component').then(m => m.TransformationComponent)
   },
   {
     path: 'filtrage',
-    loadChildren: () => import('./components/filtrage/filtrage.module').then(m => m.FiltrageModule)
+    loadComponent: () => import('./components/filtrage/filtrage.component').then(m => m.FiltrageComponent)
   },
   {
     path: 'jointure',
-    loadChildren: () => import('./components/jointure/jointure.module').then(m => m.JointureModule)
+    loadComponent: () => import('./components/jointure/jointure.component').then(m => m.JointureComponent)
   },
   {
     path: 'multicasting',
-    loadChildren: () => import('./components/multicasting/multicasting.module').then(m => m.MulticastingModule)
+    loadComponent: () => import('./components/multicasting/multicasting.component').then(m => m.MulticastingComponent)
   },
   {
     path: 'erreurs',
-    loadChildren: () => import('./components/erreurs/erreurs.module').then(m => m.ErreursModule)
+    loadComponent: () => import('./components/erreurs/erreurs.component').then(m => m.ErreursComponent)
   },
   {
     path: 'utilitaires',
-    loadChildren: () => import('./components/utilitaires/utilitaires.module').then(m => m.UtilitairesModule)
+    loadComponent: () => import('./components/utilitaires/utilitaires.component').then(m => m.UtilitairesComponent)
   },
   {
     path: 'mathematiques',
-    loadChildren: () => import('./components/mathematiques/mathematiques.module').then(m => m.MathematiquesModule)
+    loadComponent: () => import('./components/mathematiques/mathematiques.component').then(m => m.MathematiquesComponent)
   },
 ];
 

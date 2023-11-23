@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-multicasting',
-  standalone: false,
+  standalone: true,
   templateUrl: './multicasting.component.html',
   styleUrl: './multicasting.component.scss'
 })

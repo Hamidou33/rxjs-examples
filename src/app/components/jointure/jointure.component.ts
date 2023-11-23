@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-jointure',
-  standalone: false,
+  standalone: true,
   templateUrl: './jointure.component.html',
   styleUrl: './jointure.component.scss'
 })

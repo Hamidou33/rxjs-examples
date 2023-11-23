@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-erreurs',
-  standalone: false,
+  standalone: true,
   templateUrl: './erreurs.component.html',
   styleUrl: './erreurs.component.scss'
 })

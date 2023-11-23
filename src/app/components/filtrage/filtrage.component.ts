@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-filtrage',
-  standalone: false,
+  standalone: true,
   templateUrl: './filtrage.component.html',
   styleUrl: './filtrage.component.scss'
 })

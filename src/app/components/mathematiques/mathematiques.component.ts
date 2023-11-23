@@ -3,7 +3,7 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-mathematiques',
-  standalone: false,
+  standalone: true,
   templateUrl: './mathematiques.component.html',
   styleUrl: './mathematiques.component.scss'
 })
